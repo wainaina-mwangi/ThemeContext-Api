@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+/* 1. Define the variant OUTSIDE the theme block */
+@variant dark (&:where(.dark, .dark *));
+
+/* 2. Use the theme block only for variables */
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui;
+  /* Custom colors would go here, e.g., --color-brand: #3b82f6; */
+}
