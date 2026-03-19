@@ -3,7 +3,7 @@ import  ThemeButton from "./ThemeButton";
 
 const Navbar = () => {
   return (
-    <div>Navbar  <ThemeButton/></div>
+    <div className='dark:text-white'>Navbar  <ThemeButton/></div>
   )
 }
 
